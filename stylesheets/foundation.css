@@ -395,15 +395,15 @@ div.alert-box a.close:hover, div.alert-box a.close:focus { opacity: 0.4; }
 div.panel { background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 8px; }
 div.panel *:first-child { margin-top: 0; }
 div.panel *:last-child { margin-bottom: 0; }
-div.panel.callout { background: #2ba6cb; color: #fff; border-color: #2284a1; -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); }
+div.panel.callout { margin-bottom: 10px; background: #2ba6cb; color: #fff; border-color: #2284a1; -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); }
 div.panel.callout a { color: #fff; }
 div.panel.callout .button { background: white; border: none; color: #2ba6cb; text-shadow: none; }
 div.panel.callout .button:hover { background: rgba(255, 255, 255, 0.8); }
-div.panel.callred { background: #C60F13; color: #fff; border-color: #a10f12; -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); }
+div.panel.callred { margin-bottom: 10px; background: #C60F13; color: #fff; border-color: #a10f12; -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); }
 div.panel.callred a { color: #fff; }
 div.panel.callred .button { background: white; border: none; color: #2ba6cb; text-shadow: none; }
 div.panel.callred .button:hover { background: rgba(255, 255, 255, 0.8); }
-div.panel.callgreen { background: #5DA423; color: #fff; border-color: #4d8f17; -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); }
+div.panel.callgreen { margin-bottom: 10px; background: #5DA423; color: #fff; border-color: #4d8f17; -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); }
 div.panel.callgreen a { color: #fff; }
 div.panel.callgreen .button { background: white; border: none; color: #2ba6cb; text-shadow: none; }
 div.panel.callgreen .button:hover { background: rgba(255, 255, 255, 0.8); }
