@@ -80,6 +80,18 @@
       <!-- Grid Example -->
       <div class="row">
         <div class="twelve columns">
+        <div id="featured">
+  <img src="images/1.jpg" data-caption="#Caption1" />
+  <img src="images/2.jpg" data-caption="#Caption2" />
+  <img src="images/3.jpg" data-caption="#Caption3" />
+</div>
+<span class="orbit-caption" id="Caption1">Caption 1</span>
+<span class="orbit-caption" id="Caption2">Caption 2</span>
+<span class="orbit-caption" id="Caption3">Caption 3</span>
+
+
+
+
           <div class="panel">
             <p>Teen Boundaries is part of <a title="Family Lives" href="http://familylives.org.uk" target="_blank">Family Lives</a>, and aims to prevent sexual bullying and promotes positive gender relationships by challenging attitudes and promoting tolerance, understanding and cohesion between young people. </p>
 <p>Our research with young people tell us that SRE (Sex and Relationship Education) is too focused on providing factual information on contraception and STIs (sexually transmitted infections).
@@ -95,8 +107,8 @@ There is not enough attention on giving young people the skills they need to man
 	<span class="round label">LESSON THREE:</span> <p>The effect of Cyber world; Sexting/Internet (porn-fantasy and reality) and how it adds to the issues of sexualised bullying; the use of Form Spring, Facebook, BBM etc. in Cyber Bullying.</p>
 	<span class="round label">LESSON FOUR:</span> <p>Positive gender relationships; (including domestic violence) abuse in relationships.</p>
 	<span class="round label">LESSON FIVE:</span> <p>Sexual violence; myths and facts, safety and awareness, reporting and further help, individual responsibility in stopping sexual violence.</p>
-	Delivered in CAROUSEL DAYS: Inset, off timetable days, enrichment days and healthy school days. PSHCE/CITIZENSHIPS lessons.
-	TRAINING: Staff training on delivering the workshops and embedding the workshops into the school curriculum.
+	<span class="round label">Delivered in CAROUSEL DAYS:</span> <p> Inset, off timetable days, enrichment days and healthy school days. PSHCE/CITIZENSHIPS lessons.</p>
+	<span class="round label">TRAINING:</span> <p> Staff training on delivering the workshops and embedding the workshops into the school curriculum.</p>
 
 <strong>In 2012 we have directly worked with:</strong>
 <ul>
@@ -104,11 +116,22 @@ There is not enough attention on giving young people the skills they need to man
 	<li>Provided material and case study for the Home Office - Abuse in Relationship campaigns.</li>
 	<li>Received funding from the Home Office Crime Innovation Fund-Tackling those at risk of becoming  young male perpetrators of sexual violence</li>
 </ul>
-<strong>Track record:</strong>
 
-“We have used Teen Boundaries with the whole of our Year 9. Each class has had 4 workshops delivered as part of the PSHCE programme. Leonie and her team have shown themselves to be very knowledgeable and articulate about the subject. Delivery of the workshops has been stimulating and professional and feedback from students very positive. We are hoping to extend the programme to our Year 10's. We would have no hesitation in recommending the programme to other schools".
+<div class="row">
+        <div class="six columns">
+          <div class="panel callred radius">
+            <p>Track record:</p>
+            “We have used Teen Boundaries with the whole of our Year 9. Each class has had 4 workshops delivered as part of the PSHCE programme. Leonie and her team 
+have shown themselves to be very knowledgeable and articulate about the subject. Delivery of the workshops has been stimulating and professional 
+and feedback from students very positive. We are hoping to extend the programme to our Year 10's. We would have no hesitation in recommending the programme to other schools".
+          </div>   </div>
+           <div class="six columns">
+<div class="panel callout radius">“We have used Teen Boundaries with the whole of our Year 9. Each class has had 4 workshops delivered as part of the PSHCE programme. Leonie and her team 
+have shown themselves to be very knowledgeable and articulate about the subject. Delivery of the workshops has been stimulating and professional 
+and feedback from students very positive. We are hoping to extend the programme to our Year 10's. We would have no hesitation in recommending the programme to other schools".</div>
+</div></div>
 
-<strong>Evaluations:</strong>
+<div><p><strong>Evaluations:</strong></p>
 
 The evaluations consist of 2 scale shift questions, 4 circle the answer questions, 5 tick box questions and 3 written questions.
 
@@ -118,8 +141,17 @@ Based on 1305 PUPILS from April 2010 to 1st October 2010.
 	<li>95% of pupils did not feel happy with the way they look.</li>
 	<li>98% of pupils wanted follow-on lessons.</li>
 	<li>99% of pupils feel confused over why young people and adults wear sexy clothes.</li>
-</ul>
+</ul></div>
 <strong>Contact details:</strong>
+
+
+<div class="flex-video">
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/zDlOpd2CloI" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+
 
 Leonie Hodge
 Business Development Manager
@@ -134,9 +166,7 @@ Email: <a href="mailto:leonieh@familylives.org.uk">leonieh@familylives.org.uk
           </div>
         </div>
       </div>
-      <div class="row">
-        
-      </div>
+      
       <div class="row">
         <div class="four columns">
           <div class="panel callred radius">
@@ -190,7 +220,7 @@ Email: <a href="mailto:leonieh@familylives.org.uk">leonieh@familylives.org.uk
 
     <div class="two columns">
       <h4>About</h4>
-      <p>BullyingUK is part of Family Lives the leading family support charity, we offer support on a wide range of family issues, <a href="http://familylives.org.uk">learn more about our work.</a></p>
+      <p>TeenBoundaries is part of Family Lives the leading family support charity, we offer support on a wide range of family issues, <a href="http://familylives.org.uk">learn more about our work.</a></p>
 
       <h4>Other Resources</h4>
       <p>You should check out:</p>
@@ -206,5 +236,24 @@ Email: <a href="mailto:leonieh@familylives.org.uk">leonieh@familylives.org.uk
   <!-- Included JS Files -->
   <script src="javascripts/jquery.min.js"></script>
   <script src="javascripts/foundation.js"></script>
+  <script type="text/javascript">
+   
+
+   $('#featured').orbit({ animation: 'fade',
+   animationSpeed: 800,
+   timer: true,
+   resetTimerOnClick: false,
+   advanceSpeed: 4000,
+   pauseOnHover: false,
+   directionalNav: true,
+   captions: true,
+   captionAnimation: 'fade',
+   captionAnimationSpeed: 800,
+   bullets: true,
+   fluid: true 	});
+   
+   
+   
+</script>
 </body>
 </html>

@@ -810,7 +810,7 @@ div.orbit-wrapper { width: 1px; height: 1px; position: relative; }
 
 div.orbit { width: 1px; height: 1px; position: relative; overflow: hidden; margin-bottom: 17px; }
 
-div.orbit.with-bullets { margin-bottom: 40px; }
+div.orbit.with-bullets { margin-bottom: 20px; }
 
 div.orbit .orbit-slide { max-width: 100%; position: absolute; top: 0; left: 0; }
 
